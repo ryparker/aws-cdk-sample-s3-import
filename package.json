@@ -1,5 +1,5 @@
 {
-  "name": "aws-cdk-sample",
+  "name": "aws-cdk-sample-s3-import",
   "version": "1.0.0",
   "main": "build/js/index.js",
   "repository": "https://ryparker@github.com/ryparker/aws-cdk-sample.git",
@@ -15,13 +15,12 @@
     "destroy": "cdk destroy"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.0.0-rc.30"
+    "@aws-cdk/aws-s3": "^1.134.0",
+    "@aws-cdk/core": "1.134.0",
+    "aws-cdk": "1.134.0"
   },
   "devDependencies": {
-    "aws-cdk": "2.0.0-rc.30",
-    "constructs": "10.0.0",
-    "@aws-cdk/assert": "2.0.0-rc.30",
     "rimraf": "^3.0.2",
-    "typescript": "^4.4.4"
+    "typescript": "~4.4.4"
   }
 }
