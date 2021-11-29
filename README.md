@@ -1,28 +1,18 @@
-# AWS CDK (v2) Sample
+# Welcome to your CDK Java project!
 
-## :rocket: Quick Start
+This is a blank project for Java development with CDK.
 
-**1. Install dependencies with Yarn v1**
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-```shell
-yarn install
-```
+It is a [Maven](https://maven.apache.org/) based project, so you can open this project with any Maven compatible Java IDE to build and run tests.
 
-**2. Create the [bootstrap stack](https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html) in your AWS account**
-_This only needs to be ran once per account/region._
+## Useful commands
 
-```shell
-yarn bootstrap
-```
+ * `mvn package`     compile and run tests
+ * `cdk ls`          list all stacks in the app
+ * `cdk synth`       emits the synthesized CloudFormation template
+ * `cdk deploy`      deploy this stack to your default AWS account/region
+ * `cdk diff`        compare deployed stack with current state
+ * `cdk docs`        open CDK documentation
 
-**3. Build Cloudformation files**
-
-```shell
-yarn build
-```
-
-**4. Deploy**
-
-```shell
-yarn deploy --all
-```
+Enjoy!
