@@ -17,7 +17,7 @@
   "dependencies": {
     "@aws-cdk/aws-s3": "^1.134.0",
     "@aws-cdk/core": "1.134.0",
-    "aws-cdk": "1.134.0"
+    "aws-cdk": "2.13.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
